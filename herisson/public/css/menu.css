@@ -57,12 +57,7 @@ aside
 
 header
 {
-    position: fixed;
-    height: 130px;
-    display: flex;
-    width: 101%;
-    background-color: #FBC5EB;
-    z-index: 5;
+    height: 1px;
 }
 
 #texteMenu {
