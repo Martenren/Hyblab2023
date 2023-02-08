@@ -8,6 +8,8 @@ body
     margin: 0;
     padding: 0;
     overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1 {
@@ -32,11 +34,9 @@ h1 {
 
 .mascotte {
     position: fixed;
-    right: -10vw;
-    top: 25vh;
+    right: -5vw;
+    top: 26vh;
     z-index: 1;
-    overflow: hidden;
-    overflow-clip-margin: revert;
 }
 
 
@@ -49,8 +49,19 @@ h1 {
 }
 
 
+#ligne {
+    width: 35vw;
+}
+
+#fleche {
+    width: 10vw;
+}
+
+
 #elie {
     right: 0;
+    width: 50vw;
+    height: 40vh;
 }
 
 .texte-secondaire {
@@ -73,14 +84,14 @@ h1 {
     position: absolute;
     bottom: 0;
     background-color: #FFF8F1;
-    width: 100%;
+    width: 100vw;
     height: 45vh;
     margin-right: 0;
     margin-left: 0;
     margin-top: 5vh;
     z-index: 5;
-    border-top-left-radius: 6em;
-    border-top-right-radius: 6em;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
     margin-bottom: 0;
 }
 
